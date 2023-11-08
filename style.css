@@ -1,0 +1,53 @@
+:root {
+    --primary: #00B98E;
+    --secondary: #FF6922;
+    --light: #EFFDF5;
+    --dark: #0E2E50;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+/* navigation bar  */
+.nav-bar{
+    position: relative;
+    margin-top: 45px;
+    padding: 0 3rem;
+    transition: .5s;
+    z-index: 9999;
+}
+
+.nav-bar.sticky-top{
+    position: sticky;
+    padding: 0;
+    z-index: 9999;
+}
+
+.nav-bar{
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+}
+
+
+
+
+
+/* spinner */
+#spinner{
+    opacity: 0;
+    visibility: hidden;
+    transition: opactiy .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+
+}
+
+pinner.show{
+    transition: opactiy .5s ease-out, visibility 0s linear .0s;
+    visibility: visible;
+    opacity: 1;
+}
+
